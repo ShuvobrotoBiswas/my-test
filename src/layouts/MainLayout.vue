@@ -27,7 +27,7 @@
         <div>
           <q-btn dense flat class="q-mr-sm" color="white" icon="account_circle"></q-btn>
         </div>
-        <div class="text-black q-mr-sm text-h7">
+        <div class="text-black q-mr-sm ">
           LOGOUT
         </div>
       </q-toolbar>
