@@ -19,8 +19,15 @@
           </div>
         </q-toolbar-title>
 
-        <div class="text-black">Hello, Tom
-          <q-btn dense flat  color="white" icon="account_circle"></q-btn>
+        <div class="text-grey q-mr-sm text-bold">Hello,
+        </div>
+        <div class="text-black q-mr-sm text-bold">
+           Tom
+        </div>
+        <div>
+          <q-btn dense flat class="q-mr-sm" color="white" icon="account_circle"></q-btn>
+        </div>
+        <div class="text-black q-mr-sm text-h7">
           LOGOUT
         </div>
       </q-toolbar>

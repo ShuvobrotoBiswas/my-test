@@ -1,48 +1,48 @@
 <template>
  <div>
    <div class="flex-break q-py-md"></div>
-   <div class="text-h6 text-center">
+   <div class="text-h7  text-center">
     Hi Florin, welcome to your dashboard!
    </div>
    <div class="flex-break q-py-md"></div>
    <q-separator />
-<div class="q-pa-md">
+<div class="">
     <div class="row">
       <div class="col">
 
       </div>
       <div class="col">
-      <div class="text-black text-h7">
+      <div class="text-black text-h7 text-center">
           <q-btn dense flat  color="black" icon="person"></q-btn>
           <div>Profile</div>
           </div>
       </div>
       <div class="col">
-      <div class="text-black text-h7">
+      <div class="text-black text-h7 text-center">
           <q-btn dense flat  color="black" icon="addchart"></q-btn>
           <div>Post a Project</div>
           </div>
       </div>
       <div class="col">
-      <div class="text-black text-h7">
+      <div class="text-black text-h7 text-center">
           <q-btn dense flat  color="black" icon="insert_chart_outlined"></q-btn>
           <div>Projects</div>
           </div>
       </div>
       <div class="col">
-     <div class="text-black text-h7">
+     <div class="text-black text-h7 text-center">
           <q-btn dense flat  color="black" icon="mark_email_unread"></q-btn>
           <div>Messages</div>
           </div>
       </div>
       <div class="col">
-      <div class="text-black text-h7">
+      <div class="text-black text-h7 text-center">
           <q-btn dense flat  color="black" icon="local_atm"></q-btn>
           <div>Accounts</div>
           </div>
       </div>
       <div class="col">
-      <div class="text-black text-h7">
+      <div class="text-black text-h7 text-center">
           <q-btn dense flat  color="black" icon="tune"></q-btn>
           <div>Setting</div>
           </div>
@@ -52,11 +52,11 @@
     </div>
   </div>
 <q-separator />
-<div class="q-pa-md row flex-center items-start q-gutter-md">
+<div class=" row flex-center items-start ">
 
     <div flat bordered class="my-card" style="max-width: 600px">
       <q-card-section>
-        <div class="text-h6 text-center">Your Profile/Accounts (account and companies)</div>
+        <div class="text-h6 text-center  ">Your Profile/Accounts (account and companies)</div>
       </q-card-section>
      <q-separator />
      <div class="q-pa-md">
