@@ -45,7 +45,7 @@
         <div class="col">
           <div class="text-black text-h7 text-center">
             <q-btn dense flat color="black" icon="tune"></q-btn>
-            <div>Setting</div>
+            <div>Settings</div>
           </div>
         </div>
         <div class="col"></div>
