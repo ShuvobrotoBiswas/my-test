@@ -52,8 +52,11 @@
       </div>
     </div>
     <q-separator />
+
+    <!-- Card 1 Div -->
+
     <div class="row flex-center items-start">
-      <div flat bordered class="my-card" style="max-width: 600px">
+      <div flat bordered class="my-card" style="max-width: 750px">
         <q-card-section>
           <div class="text-h6 text-center">
             Your Profile/Accounts (account and companies)
@@ -119,6 +122,9 @@
               <div class="row"></div>
               <div class="row"></div>
               <div class="row"></div>
+              <div class="row"></div>
+              <div class="row"></div>
+              <div class="row"></div>
               <q-btn
                 size="10px"
                 rounded
@@ -135,25 +141,32 @@
       </div>
     </div>
 
+    <!-- Card 2 Div -->
+
     <div class="q-pa-md row flex-center items-start q-gutter-md">
-      <q-card class="my-card text-black bg-grey-4" style="max-width: 600px">
+      <q-card class="my-card text-black bg-grey-4" style="max-width: 750px">
         <div class="q-pa-md">
           <div class="row">
             <div class="col-9 text-h6">Company name [Company #1]</div>
-            <div class="col-5">
+            <div class="col-6">
               <q-img
                 src="~assets/Avator2.png"
                 style="height: 40px; max-width: 40px"
               >
               </q-img>
-              Verification status <br />
+              <strong>Verification status</strong> <br />
               ✓ Verified ✓ <br />
               <Strong>Company #1</Strong> <br />
+              <div class="q-py-md"></div>
               <strong>Address:</strong> Via dei Faggi 24 , Rome, 254321, Italy
+              <div></div>
               <br />
               <strong>Description</strong> <br />
+              <!-- <div class="q-py-md"></div> -->
               {{ lorem }} <br />
+              <div class="q-py-md"></div>
               <strong>Price range:</strong> €15-55/hour <br />
+              <div class="q-py-md"></div>
               <Strong>Skills</Strong>
               <div>
                 <q-btn
@@ -186,8 +199,8 @@
                 >
               </div>
             </div>
-            <div class="col-7">
-              <div class="text-h7 ">
+            <div class="col-6">
+              <div class="text-h7">
                 <strong>Fascial code:</strong> MTS SMI 84R11 Z114H
               </div>
               <div class="text-h7 q-py-md">
@@ -227,7 +240,9 @@
                 >
               </div>
               <br />
-              <div class="text-h7 q-py-md"><strong>Projects job range</strong></div>
+              <div class="text-h7 q-py-md">
+                <strong>Projects job range</strong>
+              </div>
               <div>
                 <q-btn
                   size="7px"
@@ -274,6 +289,9 @@
             </div>
             <div class="row">
               <div class="col"></div>
+              <div class="row"></div>
+              <div class="row"></div>
+              <div class="row"></div>
               <div class="row"></div>
               <div class="row"></div>
               <div class="row"></div>
@@ -292,25 +310,33 @@
         </div>
       </q-card>
     </div>
+
+    <!-- Card 3 Div -->
+
     <div class="q-pa-md row flex-center items-start q-gutter-md">
-      <q-card class="my-card text-black bg-grey-4" style="max-width: 600px">
+      <q-card class="my-card text-black bg-grey-4" style="max-width: 750px">
         <div class="q-pa-md">
-          <div class="row ">
-            <div class="col-9 text-h6">Company name [Company #1]</div>
-            <div class="col-5 ">
+          <div class="row">
+            <div class="col-9 text-h6">Company name [Company #2]</div>
+            <div class="col-6">
               <q-img
                 src="~assets/Avator2.png"
                 style="height: 40px; max-width: 40px"
               >
               </q-img>
-              Verification status<br />
+              <strong>Verification status</strong> <br />
               ✓ Verified ✓ <br />
-              <Strong >Company #1</Strong> <br />
+              <Strong>Company #2</Strong> <br />
+              <div class="q-py-md"></div>
               <strong>Address:</strong> Via dei Faggi 24 , Rome, 254321, Italy
+              <div></div>
               <br />
               <strong>Description</strong> <br />
+              <!-- <div class="q-py-md"></div> -->
               {{ lorem }} <br />
+              <div class="q-py-md"></div>
               <strong>Price range:</strong> €15-55/hour <br />
+              <div class="q-py-md"></div>
               <Strong>Skills</Strong>
               <div>
                 <q-btn
@@ -343,21 +369,21 @@
                 >
               </div>
             </div>
-            <div class="col-7">
+            <div class="col-6">
               <div class="text-h7">
                 <strong>Fascial code:</strong> MTS SMI 84R11 Z114H
               </div>
-              <div class="text-h7">
+              <div class="text-h7 q-py-md">
                 <strong>Legal note comapany owner</strong> ✔
               </div>
               <div class="text-h7">
                 <strong>Register number:</strong> 123 456 789
               </div>
-              <div class="text-h7">
+              <div class="text-h7 q-py-md">
                 <strong>Website:</strong> https://domain.com
               </div>
               <div class="text-h7"><strong>Phone:</strong> +39 321 654 987</div>
-              <div class="text-h7">
+              <div class="text-h7 q-py-md">
                 <strong>Freelanchers associated</strong>
               </div>
               <div>
@@ -384,7 +410,9 @@
                 >
               </div>
               <br />
-              <div class="text-h7"><strong>Projects job range</strong></div>
+              <div class="text-h7 q-py-md">
+                <strong>Projects job range</strong>
+              </div>
               <div>
                 <q-btn
                   size="7px"
@@ -402,7 +430,7 @@
                 >
               </div>
               <br />
-              <div class="text-h7">
+              <div class="text-h7 q-py-md">
                 <strong>Relevent projects from your portfolio</strong>
               </div>
               <div>
@@ -436,6 +464,9 @@
               <div class="row"></div>
               <div class="row"></div>
               <div class="row"></div>
+              <div class="row"></div>
+              <div class="row"></div>
+              <div class="row"></div>
               <q-btn
                 size="10px"
                 rounded
@@ -445,25 +476,20 @@
                 class="text-white text-h7"
               ></q-btn>
             </div>
-            <div class="row">
-              <div class="col"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <div class="row"></div>
-              <q-btn
-                size="10px"
-                rounded
-                color="black"
-                icon="add"
-                label="Add Companies"
-                class="text-white text-h7"
-              ></q-btn>
-            </div>
           </div>
         </div>
       </q-card>
+    </div>
+    <div class="row flex-center q-pa-md">
+      <!-- <div class="col"></div> -->
+      <q-btn
+        size="10px"
+        rounded
+        color="black"
+        icon="add"
+        label="Add Companies"
+        class="text-white text-h7"
+      ></q-btn>
     </div>
   </div>
 </template>
