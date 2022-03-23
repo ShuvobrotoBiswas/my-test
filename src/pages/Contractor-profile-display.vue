@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex-break "></div>
+    <div class="flex-break"></div>
     <div class="text-h7 text-center">Hi Florin, welcome to your dashboard!</div>
     <div class="flex-break q-py-md"></div>
     <q-separator />
@@ -89,21 +89,21 @@
                   size="7px"
                   rounded
                   color="grey-5"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >#photoshop</q-btn
                 >
                 <q-btn
                   size="7px"
                   rounded
                   color="grey-5"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >#illustrator</q-btn
                 >
                 <q-btn
                   size="7px"
                   rounded
                   color="grey-5"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >#CSS3</q-btn
                 >
                 <q-btn
@@ -144,7 +144,7 @@
     <!-- Card 2 Div -->
 
     <div class="q-pa-md row flex-center items-start q-gutter-md">
-      <q-card class="my-card text-black bg-grey-4" style="max-width: 750px">
+      <q-card class="my-card text-black bg-grey-4" style="max-width: 800px">
         <div class="q-pa-md">
           <div class="row">
             <div class="col-9 text-h6">Company name [Company #1]</div>
@@ -173,21 +173,21 @@
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Graphic Design</q-btn
                 >
                 <q-btn
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Logo Design</q-btn
                 >
                 <q-btn
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Web design</q-btn
                 >
                 <q-btn
@@ -221,14 +221,14 @@
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Gill Dobrica</q-btn
                 >
                 <q-btn
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Viorica Dancila</q-btn
                 >
                 <q-btn
@@ -248,7 +248,7 @@
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Branding & Logo Design</q-btn
                 >
                 <q-btn
@@ -268,14 +268,14 @@
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Logo Design</q-btn
                 >
                 <q-btn
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Website Design</q-btn
                 >
                 <q-btn
@@ -314,7 +314,7 @@
     <!-- Card 3 Div -->
 
     <div class="q-pa-md row flex-center items-start q-gutter-md">
-      <q-card class="my-card text-black bg-grey-4" style="max-width: 750px">
+      <q-card class="my-card text-black bg-grey-4" style="max-width: 800px">
         <div class="q-pa-md">
           <div class="row">
             <div class="col-9 text-h6">Company name [Company #2]</div>
@@ -343,21 +343,21 @@
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Graphic Design</q-btn
                 >
                 <q-btn
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Logo Design</q-btn
                 >
                 <q-btn
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Web design</q-btn
                 >
                 <q-btn
@@ -391,14 +391,14 @@
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Gill Dobrica</q-btn
                 >
                 <q-btn
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Viorica Dancila</q-btn
                 >
                 <q-btn
@@ -418,7 +418,7 @@
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Branding & Logo Design</q-btn
                 >
                 <q-btn
@@ -438,14 +438,14 @@
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Logo Design</q-btn
                 >
                 <q-btn
                   size="7px"
                   rounded
                   color="white"
-                  class="text-black text-h7"
+                  class="text-black q-mr-sm text-h7"
                   >Website Design</q-btn
                 >
                 <q-btn
