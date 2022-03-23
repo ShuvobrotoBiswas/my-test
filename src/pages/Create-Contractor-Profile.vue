@@ -56,7 +56,7 @@
     <!-- Card 1 Div -->
 
     <div class="row flex-center items-start">
-      <div flat bordered class="my-card" style="max-width: 750px">
+      <div flat bordered class="my-card" style="max-width: 800px">
         <q-card-section>
           <div class="text-h6 text-bold text-center">
             Create your profile (contractor + company)
@@ -76,7 +76,6 @@
                   v-model="model"
                   label="upload new picture"
                 >
-
                   <template v-slot:append>
                     <q-icon
                       v-if="model !== null"
@@ -85,11 +84,21 @@
                       class="cursor-pointer"
                     />
                   </template>
-
                 </q-file>
               </div>
               <div class="q-pa-md">
                 <q-btn outline bottom-slots rounded> remove exsting </q-btn>
+              </div>
+              <div class="q-pa-md text-h7 text-bold">Europass & Portfolio</div>
+              <div class="q-pa-md">
+                <q-btn
+                  icon="link"
+                  class="q-mr-sm text-h7"
+                  rounded
+                  color="black"
+                >
+                  Link Your Europass CV
+                </q-btn>
               </div>
             </div>
             <div class="col-7">
@@ -103,8 +112,59 @@
               <q-input v-model="search" outlined type="search">
                 <template v-slot:append>
                   <q-icon name="search" />
+                  <q-menu>
+                    <q-list style="min-width: 250px">
+                      <q-item clickable v-close-popup>
+                        <q-item-section>Graphic Tools</q-item-section>
+                      </q-item>
+                      <q-option-group
+                        :options="options"
+                        type="checkbox"
+                        v-model="group"
+                      />
+                      <!-- <q-item clickable v-close-popup>
+                        <q-item-section>Adobe Illustrator</q-item-section>
+                      </q-item>
+                      <q-item clickable v-close-popup>
+                        <q-item-section>Adobe Photoshop</q-item-section>
+                      </q-item>
+                      <q-item clickable v-close-popup>
+                        <q-item-section>Adobe XD</q-item-section>
+                      </q-item> -->
+                    </q-list>
+                  </q-menu>
                 </template>
               </q-input>
+              <div class="q-py-md">
+                <q-btn
+                  size="7px"
+                  rounded
+                  color="white"
+                  class="text-black q-mr-sm text-h7"
+                  >Adobe Photoshop ✠</q-btn
+                >
+                <q-btn
+                  size="7px"
+                  rounded
+                  color="white"
+                  class="text-black q-mr-sm text-h7"
+                  >Adobe Illustrator ✠</q-btn
+                >
+                <q-btn
+                  size="7px"
+                  rounded
+                  color="white"
+                  class="text-black q-mr-sm text-h7"
+                  >Adobe XD ✠</q-btn
+                >
+                <q-btn
+                  size="7px"
+                  rounded
+                  color="white"
+                  class="text-black text-h7"
+                  >CSS3 ✠</q-btn
+                >
+              </div>
             </div>
             <div class="row">
               <div class="col"></div>
@@ -116,14 +176,6 @@
               <div class="row"></div>
               <div class="row"></div>
               <div class="row"></div>
-              <q-btn
-                size="10px"
-                rounded
-                color="black"
-                icon="edit"
-                label="Edit Profile"
-                class="text-white text-h7"
-              ></q-btn>
             </div>
           </div>
 
@@ -133,6 +185,32 @@
     </div>
 
     <!-- Card 2 Div -->
+
+    <div class="row flex-center items-start">
+      <div flat bordered class="my-card" style="max-width: 800px">
+        <div class="q-pa-md">
+          <div class="col-9 text-h7 text-bold">
+            Add relevent projects from you portfolio
+          </div>
+        </div>
+        <div class="row bid1 text-center ">
+          <div class="col bid2">
+            hello
+          </div>
+          <div class="col bid2">
+            hello
+          </div>
+          <div class="col bid2">
+            hello
+          </div>
+          <div class="col bid2">
+            hello
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 div -->
 
     <div class="q-pa-md row flex-center items-start q-gutter-md">
       <q-card class="my-card text-black bg-grey-4" style="max-width: 800px">
@@ -145,11 +223,8 @@
                 style="height: 40px; max-width: 40px"
               >
               </q-img>
-
             </div>
-            <div class="col-6">
-
-            </div>
+            <div class="col-6"></div>
             <div class="row">
               <div class="col"></div>
               <div class="row"></div>
@@ -176,7 +251,6 @@
 
     <!-- Footer Div -->
 
-    
     <div class="row flex-center q-pa-md">
       <!-- <div class="col"></div> -->
       <q-btn
@@ -206,6 +280,12 @@ export default defineComponent({
       billingAddress: "",
       address: "",
       model: ref(null),
+      group: ref([]),
+      options: [
+        { label: "Adobe Illustrator" },
+        { label: "Adobe Photoshop" },
+        { label: "Adobe XD" },
+      ],
     };
   },
 });
@@ -221,6 +301,11 @@ export default defineComponent({
   // border: 1px solid rgba(86,61,124,.2)
 .row + .row
   margin-top: 1rem
-.row
+.bid1
   // background: rgba(255,0,0,.1)
+  border: 1px solid rgba(86,61,124,.2)
+  margin-top: 1rem
+.bid2
+  border: 1px solid rgba(86,61,124,.2)
+  height: 100px
 </style>
